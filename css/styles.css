@@ -1,0 +1,140 @@
+body{
+  font-family: "Montserrat";
+}
+h1{
+
+  font-weight: 900;
+  font-size:3.5rem;
+  line-height: 1.5;
+  color:#fff;
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-weight: 800;
+  line-height: 3rem;
+  padding:0 15%;
+}
+h3{
+  font-family: "Montserrat";
+  font-weight:800;
+  margin:5% 0;
+  font-size:1.5rem;
+}
+#title{
+  background-color: #ff4c68;
+}
+
+.container-fluid{
+  padding:3% 15% 7%;
+}
+
+.navbar{
+  padding:0 0 4.5rem 0;/* rem is used beacuse we want dynamic*/
+}
+.nav-item{
+  padding:0 18px;/*rem is not used we want fixed padding*/
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+/*Download Button*/
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+/* Ipone Image */
+.pp{
+  width:55%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:30%;
+
+}
+@media(max-width:1028px)
+{
+  .pp{
+    position:static;
+    transform:rotate(0);
+  }
+    #title{
+      text-align: center;
+    }
+  }
+#features{
+  padding:7% 15%;
+  background-color:#fff;
+  position: relative;
+  z-index: 1;
+  /* <!-- without this  will be same-->  */
+
+}
+.feature-box{
+  text-align: center;
+  padding:5%;
+}
+.colr{
+  color:#ef8172;
+}
+.colr:hover{
+  color:#ff4c68;
+}
+#testimonials{
+  text-align: center;
+  background-color:#ef8172;
+  color:#fff;
+}
+
+.test-image{
+    width:10%;
+    border-radius: 100%;
+    margin:2%;
+}
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom:3%;
+}
+.press-logo{
+  width:15%;
+  margin:0 5%;
+}
+.carousel-item{
+  padding:7% 25%;
+}
+/* pricing section*/
+#pricing{
+  text-align:center;
+  padding:10% 10%
+}
+.sz{
+  width:50%;
+  margin:0 auto;
+}
+/* <!-- Call to Action --> */
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+  padding:1% 0;
+
+}
+.last{
+    font-size: 2rem;
+    font-weight: 900;
+    padding:3% 0;
+    margin:auto;
+    width:50%;
+}
+.btns{
+  margin:5px 5px;
+  text-align: center;
+}
+/* <!-- Footer --> */
+#footer{
+  text-align: center;
+  padding:10% 10%;
+}
+.tt{
+  margin:2%;
+  background-color: #fff;
+}
